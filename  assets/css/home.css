@@ -1,0 +1,125 @@
+/* +++Basic+++ */
+
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: quicksand;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-height: 90vh;
+    min-width: 100%;
+}
+
+/* +++Main Nav+++ */
+
+nav{
+    
+   
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+a{
+    color: rgb(10, 10, 10);
+    font-size:3rem ;
+    text-decoration: none;
+    padding: 1rem 4rem;
+   
+}
+
+/* +++Section sleeping dogs+++ */
+
+.sleeping_dogs{
+    background: url(../img/bild1.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 40rem 15rem 40rem;
+    line-height:1.5em;
+}
+
+.sleeping_dogs p{
+    color: white;
+    font-size: 3rem;
+    max-width: 35vw;
+    text-transform: uppercase;
+}
+
+/* +++section between the dogs+++ */
+
+.between_dogs{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 0 25rem;
+}
+
+h3{
+   font-size: 3rem;
+   color: rgb(116, 111, 111);
+   margin-bottom: 3rem;
+    
+}
+.between_dogs p{
+    font-size: 2rem;
+    color: rgb(135, 129, 129);
+    
+}
+
+/* +++section after Dalmatiner+++ */
+
+.after_dalmatiner{
+    background: url(../img/bild5.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 40rem 15rem 40rem;
+   
+}
+
+.after_dalmatiner p{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    max-width: 30vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* +++footer+++ */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+    height: 10vh;
+
+   
+}
+
+footer p{
+    font-size: 2rem;
+    
+}

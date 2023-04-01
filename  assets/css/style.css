@@ -1,0 +1,36 @@
+/* +++Basic+++ */
+
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ++++Menusite++ */
+
+a{
+    color: rgb(252, 250, 250);
+    font-size:4rem ;
+    font-family: quicksand;
+   
+   
+}
+
+nav{
+    background: url(../img/bild1.jpg)no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

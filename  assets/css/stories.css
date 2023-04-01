@@ -1,0 +1,168 @@
+/* +++Basic+++ */
+
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: quicksand;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-height: 90vh;
+    min-width: 100%;
+}
+
+/* +++Main Nav+++ */
+
+nav{
+    
+   
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+a{
+    color: rgb(10, 10, 10);
+    font-size:3rem ;
+    text-decoration: none;
+    padding: 1rem 4rem;
+   
+}
+
+/* +++main section labrador+++ */
+
+.labrador{
+    background: url(../img/bild2.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    margin: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.labrador p{
+    margin: 0 10rem 0 0;
+    font-size: 2rem;
+    width: 20vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.labrador p::first-letter{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+span{
+    color: rgb(255, 98, 0);
+}
+
+/* +++section two dogs+++ */
+
+.two_dogs{
+    background: url(../img/bild3.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    margin: 10rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.two_dogs p{
+    margin: 0 0 0 10rem;
+    font-size: 2rem;
+    width: 20vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.two_dogs p::first-line{
+    font-weight: bold;
+    color: rgb(156, 154, 154);
+}
+
+/* +++section dalmatiner+++ */
+
+.dalmatiner{
+    background: url(../img/bild4.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    margin: 10rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dalmatiner p{
+    
+    font-size: 2rem;
+    width: 20vw;
+    color: rgb(221, 28, 14);
+    text-transform: uppercase;
+    line-height: 0.8em;
+}
+
+/* +++malteser+++ */
+
+.malteser{
+    background: url(../img/bild5.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+    width: 20vw;
+    color: rgb(11, 11, 11);
+    text-transform: uppercase; 
+    margin: 5rem 0 0 10rem;
+    line-height: 0.5em;
+}
+
+.malteser p{
+    font-size: 2rem;
+    width: 40vw;
+    color: rgb(250, 246, 246);
+    text-transform: uppercase; 
+    margin: 5rem 0 0 10rem;
+    line-height: 0.8em;
+}
+ .malteser span{
+    color: rgba(255, 68, 0, 0.457);
+ }
+
+/* +++footer+++ */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+    height: 10vh;
+
+   
+}
+
+footer p{
+    font-size: 2rem;
+    
+}
